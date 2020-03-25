@@ -1,0 +1,114 @@
+.bg {
+	background-color: #1d222b;
+}
+.bg-img{
+	background: url("../images/bg-img.png");
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	height: 540px;
+}
+
+.logo{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.series{
+	margin-top: 30px;
+    margin-bottom: 40px;
+}
+.series img{
+	border-radius: 25px;
+	box-shadow: 0px 0px 23px #0c0e13;
+	max-width: 200px;
+    height: 313px;
+}
+
+.subtitle{
+	color: #97a2b5;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/*subpage*/
+.subpage-logo{
+	margin: 50px;
+}
+
+.series-title h1{
+	color: white;
+	margin-bottom: 30px;
+}
+
+.sub-series-img{
+	border-radius: 25px;
+	box-shadow: 0px 0px 23px #0c0e13;
+}
+
+.plotTitle{
+	color: white;
+	margin-bottom: 0;
+}
+.plot{
+	color: white;
+}
+.ratings{
+	color: white;
+}
+
+.trailer{
+	margin-top: 50px;
+}
+
+@media only screen and (min-width:1000px) and (max-width:1200px){
+.bg-img{
+	height: 479px;
+}
+
+}
+
+@media only screen and (min-width:900px) and (max-width:999px){
+.bg-img{
+	height: 359px;
+}
+
+}
+
+@media only screen and (min-width:700px) and (max-width:899px){
+.bg-img{
+	height: 359px;
+}
+
+}
+
+@media only screen and (min-width:600px) and (max-width:699px){
+.bg-img{
+	height: 261px;
+}
+
+}
+
+@media only screen and (min-width:413px) and (max-width:599px){
+.bg-img{
+	height: 275px;
+}
+
+}
+
+@media only screen and (min-width:100px) and (max-width:414px){
+.bg-img{
+	height: 197px;
+}
+
+.series img{
+	max-width: 150px;
+    height: 241px;
+}
+
+}
